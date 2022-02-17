@@ -8,20 +8,20 @@ h2 {
   margin: 20px;
 }
 .article {
-  width: 30vw;
+  width: 70vw;
   margin: 30px;
-  margin-left: 35vw;
-  padding: 20px;
+  margin-left: 15vw;
+  padding: 5px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   outline: 2px solid #A2D9CE;
 }
 .article-large {
-  width: 50vw;
+  width: 90vw;
   margin: 30px;
   margin-bottom: 50px;
-  margin-left: 25vw;
+  margin-left: 5vw;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -32,9 +32,6 @@ h2 {
   text-align: center;
 }
 
-@media screen and (max-with : 1024px) {
-  
-}
 /**********Header**********/
 header {
   background-color: #A2D9CE;
@@ -50,12 +47,11 @@ h1 {
 }
 .navbar {
   background-color: #A2D9CE;
-  font-size: 30px;
-  margin-left: 25vw;
+  font-size: 20px;
+  margin-left: 15vw;
 }
-li {
-  margin-left: 30px;
-
+.nav-item {
+  margin-left: 15px;
 }
 /**********Footer**********/
 footer {
@@ -81,3 +77,70 @@ footer {
   background: #3B5998;
   color: white;
 }
+/**********contact**********/
+.contact {
+  width: 70vw;
+  margin: 30px;
+  margin-left: 15vw;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  outline: 2px solid #A2D9CE;
+}
+.listcontact {
+  padding: 5;
+}
+/**********mediaquery**********/
+@media screen and (min-width : 1024px) {
+  .logo {
+    width: 5vw;
+  }
+  .article {
+    width: 40vw;
+    margin: 30px;
+    margin-left: 30vw;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    outline: 2px solid #A2D9CE;
+  }
+  .article-large {
+    width: 50vw;
+    margin: 30px;
+    margin-bottom: 50px;
+    margin-left: 25vw;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    outline: 2px solid #A2D9CE;
+  }
+  .retour {
+    text-align: center;
+  }
+  .navbar {
+    background-color: #A2D9CE;
+    font-size: 30px;
+    margin-left: 25vw;
+  }
+  .nav-item {
+    margin-left: 20px;
+  }
+  .contact {
+    width: 40vw;
+    margin-left: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    outline: 2px solid #A2D9CE;
+  }
+  h3 {
+    text-align: center;
+  }
+  #bodycontact {
+    padding-top: 5px;
+  }
+}
+
